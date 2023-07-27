@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Oswald&display=swap');
+
+*{
+    /* font-family: 'Oswald', sans-serif;*/
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("images\\bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 255);
+}
+
+.bannerTitle{
+    font-size: 4rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+    height: 40vh;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border:  2px solid  yellowgreen;
+}
+
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border:  2px solid  yellowgreen;
+}
+
+.card-img-top{
+    height: 40vh;
+   
+}
+.passport{
+    height: 80vh;
+}
+.footer{
+    text-align: center;
+    color:blue;
+
+}
